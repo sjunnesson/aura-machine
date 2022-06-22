@@ -1,4 +1,4 @@
-# Three.js - Template - Simple
+# Aura Machine
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
