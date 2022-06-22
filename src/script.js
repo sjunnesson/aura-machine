@@ -94,7 +94,7 @@ gui.add(params, "bloomThreshold", 0.0, 1.0).onChange(function (value) {
   bloomPass.threshold = Number(value);
 });
 
-gui.add(params, "bloomStrength", 0.0, 3.0).onChange(function (value) {
+gui.add(params, "bloomStrength", 0.0, 3.5).onChange(function (value) {
   bloomPass.strength = Number(value);
 });
 
