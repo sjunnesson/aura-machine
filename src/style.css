@@ -1,19 +1,33 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    overflow: hidden;
+body {
+  overflow: hidden;
 }
 
-.webgl
-{
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.ui {
+  position: absolute;
+}
+
+#takePicture {
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+}
+
+.horizontal-center {
     position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+    bottom: 15%;
+    left: 50%;
+    margin-left: -100px;
 }
